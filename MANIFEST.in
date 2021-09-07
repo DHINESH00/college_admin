@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include college_admissions *.css
+recursive-include college_admissions *.csv
+recursive-include college_admissions *.html
+recursive-include college_admissions *.ico
+recursive-include college_admissions *.js
+recursive-include college_admissions *.json
+recursive-include college_admissions *.md
+recursive-include college_admissions *.png
+recursive-include college_admissions *.py
+recursive-include college_admissions *.svg
+recursive-include college_admissions *.txt
+recursive-exclude college_admissions *.pyc

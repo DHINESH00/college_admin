@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "autoname": "ES.####",
+ "creation": "2021-09-03 23:57:55.793894",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "college_name",
+  "student_name",
+  "branch",
+  "semester",
+  "coures_1",
+  "coures_2",
+  "semester_fee",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "college_name",
+   "fieldtype": "Link",
+   "label": "college_name",
+   "options": "college"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Small Text",
+   "label": "student_branch"
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Link",
+   "label": "student_name",
+   "options": "student_main"
+  },
+  {
+   "fieldname": "semester",
+   "fieldtype": "Int",
+   "label": "semester"
+  },
+  {
+   "fieldname": "coures_1",
+   "fieldtype": "Small Text",
+   "label": "coures_1"
+  },
+  {
+   "fieldname": "coures_2",
+   "fieldtype": "Small Text",
+   "label": "coures_2"
+  },
+  {
+   "fieldname": "semester_fee",
+   "fieldtype": "Currency",
+   "label": "semester_fee"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "enroll_semester",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-09-06 22:46:56.738560",
+ "modified_by": "Administrator",
+ "module": "College Admissions",
+ "name": "enroll_semester",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

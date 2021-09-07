@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "creation": "2021-09-04 10:40:55.808767",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "semester_1_fees",
+  "semester_2_fees",
+  "semester_3_fees",
+  "semester_4_fees",
+  "semester_5_fees",
+  "semester_6_fees",
+  "semester_7_fees",
+  "semester_8_fees"
+ ],
+ "fields": [
+  {
+   "fieldname": "semester_1_fees",
+   "fieldtype": "Currency",
+   "label": "semester_1_fees"
+  },
+  {
+   "fieldname": "semester_2_fees",
+   "fieldtype": "Currency",
+   "label": "semester_2_fees"
+  },
+  {
+   "fieldname": "semester_3_fees",
+   "fieldtype": "Currency",
+   "label": "semester_3_fees"
+  },
+  {
+   "fieldname": "semester_4_fees",
+   "fieldtype": "Currency",
+   "label": "semester_4_fees"
+  },
+  {
+   "fieldname": "semester_5_fees",
+   "fieldtype": "Currency",
+   "label": "semester_5_fees"
+  },
+  {
+   "fieldname": "semester_6_fees",
+   "fieldtype": "Currency",
+   "label": "semester_6_fees"
+  },
+  {
+   "fieldname": "semester_7_fees",
+   "fieldtype": "Currency",
+   "label": "semester_7_fees"
+  },
+  {
+   "fieldname": "semester_8_fees",
+   "fieldtype": "Currency",
+   "label": "semester_8_fees"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-09-04 10:41:13.669994",
+ "modified_by": "Administrator",
+ "module": "College Admissions",
+ "name": "semesters",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
